@@ -1,0 +1,23 @@
+ * {
+    margin: 0;
+    padding: 0;
+ }
+
+header {
+    padding: 20px;
+    background-color: rgb(29, 43, 75);
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo {
+    color: white;
+    font-weight: bold;
+}
+
+.link-container, a {
+    display: flex;
+    text-decoration: none;
+    gap: 30px;
+    color: grey;
+}
